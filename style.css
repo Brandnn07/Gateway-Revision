@@ -26,6 +26,14 @@ body, html {
     font-size: 120px;
   }
   
+  .country-name {
+    font-family: Marker -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    padding: 15px;
+    padding-left: 200px;
+    text-decoration: none;
+  }
+
   .crest {
     width: 80px;
     height: auto;
@@ -48,13 +56,18 @@ body, html {
   h2 {
     text-align: center;
   }
+
+  h3 {
+      text-align: center;
+      text-decoration: underline;
+  }
   #navbar1 {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     box-sizing: border-box;
-    font-size: 20px;
+    font-size: 17px;
     background-color: #ffd966;
     position: fixed; 
     top: 0; 
@@ -76,14 +89,21 @@ body, html {
     color: black;
   }
   
-  .foodContainer {
+  main {
+    width: 75%;
+    padding: 10px;
     float: left;
-    display: table;
-  /*   padding: 50px; */
+  }
+
+  aside {
+    float: right;
+    background-color: #878787;
+    color: white;
   }
   
   .FoodPics {
-    width: 350px;
+    display: block;
+    width: 220px;
     margin: 20px;
   }
   
@@ -91,7 +111,7 @@ body, html {
     background-color: #ddd;
   }
   
-  spaContainer{
+  .spaContainer{
     float: left;
     display: table;
     padding: 50px;
@@ -100,14 +120,6 @@ body, html {
   .spaPics {
     width: 500px;
     margin: 10px;
-  }
-  
-  .country-name {
-    font-family: cursive;
-    color: black;
-    padding: 15px;
-    padding-left: 370px;
-    text-decoration: none;
   }
   
   .about-content {

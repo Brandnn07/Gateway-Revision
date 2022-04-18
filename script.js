@@ -10,7 +10,7 @@ function saveInfo() {
     array.unshift(firstN.value, lastN.value, email.value, password.value, comments.value);
     console.log(array);
     localStorage.setItem('Sign up info', JSON.stringify(array));
-}
+};
 
 signupBtn.addEventListener('click', function() {
     saveInfo();
@@ -29,6 +29,6 @@ function renderInfo() {
         comments.value = prevInfo[4];
         alert("We've loaded your previous login info!");
     }
-}
+};
 
 renderInfo();   
